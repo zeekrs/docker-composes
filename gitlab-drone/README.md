@@ -1,4 +1,4 @@
-# gitlab drone
+# GitLab/Drone
 
 ---
 
@@ -36,6 +36,6 @@
 
 ### 参考
 
-- [gitlab document](https://docs.gitlab.com/ee/install/docker.html)
+- [GitLab Document](https://docs.gitlab.com/ee/install/docker.html)
 
-- [drone document](https://docs.drone.io/server/provider/gitlab/)
+- [Drone Document](https://docs.drone.io/server/provider/gitlab/)
