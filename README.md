@@ -3,7 +3,7 @@
 ---
 ### docker-composes 的一些常用组合整理  
 
-- [Gitlab/Drone](https://github.com/zeekrs/docker-composes)  Sample Gitlab Drone
+- [Gitlab/Drone](https://github.com/zeekrs/docker-composes/tree/main/gitlab-drone)  Sample Gitlab Drone
 
 ---
 
