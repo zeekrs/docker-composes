@@ -1,0 +1,15 @@
+version: '3.1'
+services:
+  mysql:
+    container_name: metabase
+    image: metabase/metabase
+    restart: always
+    ports:
+      - ${METABASE_PORT}:3000
+    environment:
+      MB_DB_TYPE: ${MB_DB_TYPE}
+      MB_DB_DBNAME: ${MB_DB_DBNAME}
+      MB_DB_PORT: ${MB_DB_PORT}
+      MB_DB_USER: ${MB_DB_USER}
+      MB_DB_PASS: ${MB_DB_PASS}
+      MB_DB_HOST: ${MB_DB_HOST}
