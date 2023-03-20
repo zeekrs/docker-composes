@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  mssql:
+    container_name: mssql
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    restart: always
+    ports:
+      - ${MSSQL_PORT}:1433
+    environment:
+      SA_PASSWORD: ${SA_PASSWORD}
+      ACCEPT_EULA: Y
+      MSSQL_PID: ${MSSQL_PID}
