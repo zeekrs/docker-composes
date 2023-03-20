@@ -4,3 +4,4 @@ mssql/data
 redis/data
 nginx/conf.d
 nginx/website
+.DS_Store
