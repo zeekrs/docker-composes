@@ -10,3 +10,5 @@ services:
       SA_PASSWORD: ${SA_PASSWORD}
       ACCEPT_EULA: Y
       MSSQL_PID: ${MSSQL_PID}
+    volumes:
+      - ${MSSQL_DIR}/data:/var/opt/mssql/data

@@ -4,4 +4,5 @@ mssql/data
 redis/data
 nginx/conf.d
 nginx/website
+minio/data
 .DS_Store

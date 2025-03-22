@@ -1,0 +1,3 @@
+services:
+  mssql:
+    platform: linux/amd64 
